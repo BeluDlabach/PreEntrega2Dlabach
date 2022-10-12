@@ -1,0 +1,981 @@
+@charset "UTF-8";
+/*--- variables --- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.violet {
+  background-color: #aba6a6;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+
+.pieDePag {
+  display: grid;
+  grid-template-rows: 15px;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #aba6a6;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  position: relative;
+  padding-bottom: 20em;
+  background-color: #c5baba;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  padding-left: 50;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: #918888;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 150px;
+  margin-left: 115px;
+  border: 5px;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  min-width: 175px;
+  display: flex;
+  flex-direction: row;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: small;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.carrousel {
+  height: 50%;
+  width: 100%;
+}
+
+.First {
+  display: grid;
+  grid-template-columns: 60%;
+  background-color: #c5baba;
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Second {
+  display: grid;
+  grid-template-columns: 60%;
+  background-color: #c5baba;
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Third {
+  display: grid;
+  grid-template-columns: 60%;
+  background-color: #c5baba;
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.stella {
+  display: grid;
+  height: 100%;
+  width: 165%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.japones {
+  display: grid;
+  height: 100%;
+  width: 165%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.vitc {
+  display: grid;
+  height: 100%;
+  width: 165%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* mobile first 0px-500px */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.violet {
+  background-color: #aba6a6;
+}
+
+body {
+  position: relative;
+  padding-bottom: 20em;
+  background-color: #c5baba;
+}
+
+.imgSkin {
+  padding: 5px;
+  margin: 15px 15px 15px;
+  display: inline-block;
+}
+
+.cuidadoFacial {
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 20px;
+  padding-left: 50;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.Skincare2 {
+  display: grid;
+  grid-template-areas: "imgFac" "pFacial" "pExceso" "videoFacial";
+  grid-template-rows: 1fr 0.5fr 0.5fr 1fr;
+}
+
+.img-fluid {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 60%;
+  width: 55%;
+  height: 80%;
+  margin-right: 65px;
+  margin-left: 100px;
+}
+
+.imgCorp {
+  width: 70%;
+  height: 100%;
+}
+
+/* Declaro nombre para las areas de la grilla */
+.carrousel {
+  grid-area: carrousel;
+}
+
+.Skincare {
+  grid-area: skincare;
+}
+
+.imgSkincare {
+  grid-area: imgskin;
+}
+
+.imgCorporal {
+  grid-area: imgcorpo;
+}
+
+.blog {
+  grid-area: blog;
+}
+
+h1 {
+  grid-area: h1;
+}
+
+p {
+  grid-area: p;
+}
+
+h2 {
+  grid-area: h2;
+}
+
+h3 {
+  grid-area: h3;
+}
+
+.First {
+  grid-area: first;
+}
+
+.Second {
+  grid-area: second;
+}
+
+.Third {
+  grid-area: third;
+}
+
+.Skincare2 {
+  grid-area: Skincare2;
+}
+
+.imgFac {
+  grid-area: imgFac;
+}
+
+.pFacial {
+  grid-area: pFacial;
+}
+
+.pExceso {
+  grid-area: pExceso;
+}
+
+.videoFacial {
+  grid-area: videoFacial;
+}
+
+.blogInicio {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: rgb(81, 15, 94);
+  margin-left: 95px;
+  margin-right: 135px;
+  padding: 5px 5px 5px 5px;
+}
+
+.cuidadoFac {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(81, 15, 94);
+  margin-left: 150px;
+  margin-right: 135px;
+  padding: 5px 5px 5px 5px;
+}
+
+h3 {
+  color: #918888;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-right: 150px;
+  margin-left: 115px;
+  border: 5px;
+}
+
+h4 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 12px;
+  min-width: 175px;
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  font-size: small;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Skincare {
+  font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
+  display: grid inline-block;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 2fr;
+  grid-template-areas: "h1 h1" "p p" "imgskin imgcorpo";
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 0.2fr;
+  align-items: center;
+  background-color: #c5baba;
+  gap: 15px;
+  justify-items: center;
+  grid-template-areas: "h2 h2 h2" "h3 h3 h3" "first first first" "second second second" "third third third";
+}
+
+.First {
+  display: grid;
+  grid-template-columns: 60%;
+  background-color: #c5baba;
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Second {
+  display: grid;
+  grid-template-columns: 60%;
+  background-color: #c5baba;
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Third {
+  display: grid;
+  grid-template-columns: 60%;
+  background-color: #c5baba;
+  margin-top: 10px;
+  margin-right: 65px;
+  margin-left: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* tamaño img */
+.carrousel {
+  height: 50%;
+  width: 100%;
+}
+
+.stella {
+  display: grid;
+  height: 100%;
+  width: 165%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.japones {
+  display: grid;
+  height: 100%;
+  width: 165%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.vitc {
+  display: grid;
+  height: 100%;
+  width: 165%;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.pFacial {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.videoFacial {
+  display: flex;
+  grid-template-columns: 60%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  height: 200%;
+  width: 100%;
+}
+
+.pCorpo {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+@media (min-width: 1024px) {
+  .violet {
+    background-color: #aba6a6;
+  }
+  body {
+    position: relative;
+    padding-bottom: 20em;
+    background-color: #c5baba;
+  }
+  .images {
+    margin-left: 35%;
+  }
+  .imgSkin {
+    padding: 5px;
+    margin: 15px 15px 15px;
+    display: inline-block;
+  }
+  .cuidadoFacial {
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+  }
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 20px;
+    padding-left: 50;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .Skincare2 {
+    display: grid;
+    grid-template-areas: "imgFac" "pFacial" "pExceso" "videoFacial";
+    grid-template-rows: 1fr 0.3fr 0.3fr 2fr;
+  }
+  .img-fluid {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 60%;
+    width: 55%;
+    height: 80%;
+    margin-top: 6px;
+    margin-right: 65px;
+    margin-left: 50px;
+    padding-right: 5px;
+  }
+  .imgCorp {
+    width: 80%;
+    height: 300%;
+  }
+  /* Declaro nombre para las areas de la grilla */
+  .imgSkincare {
+    grid-area: imgskin;
+  }
+  .imgCorporal {
+    grid-area: imgcorpo;
+  }
+  .blog {
+    grid-area: blog;
+  }
+  h1 {
+    grid-area: h1;
+  }
+  p {
+    grid-area: p;
+  }
+  h2 {
+    grid-area: h2;
+  }
+  h3 {
+    grid-area: h3;
+  }
+  .First {
+    grid-area: first;
+  }
+  .Second {
+    grid-area: second;
+  }
+  .Third {
+    grid-area: third;
+  }
+  .Skincare2 {
+    grid-area: Skincare2;
+  }
+  .imgFac {
+    grid-area: imgFac;
+  }
+  .pFacial {
+    grid-area: pFacial;
+  }
+  .pExceso {
+    grid-area: pExceso;
+  }
+  .videoFacial {
+    grid-area: videoFacial;
+  }
+  .blogInicio {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: rgb(81, 15, 94);
+    margin-left: 95px;
+    margin-right: 135px;
+    padding: 5px 5px 5px 5px;
+  }
+  .cuidadoFac {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(81, 15, 94);
+    margin-left: 150px;
+    margin-right: 135px;
+    padding: 5px 5px 5px 5px;
+  }
+  h3 {
+    color: #918888;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 150px;
+    margin-left: 115px;
+    border: 5px;
+  }
+  h4 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    min-width: 175px;
+    display: flex;
+    flex-direction: row;
+  }
+  p {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: small;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .Skincare {
+    font-family: "Montserrat", sans-serif;
+    background-color: whitesmoke;
+    display: grid inline-block;
+    align-items: center;
+  }
+  article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr;
+    align-items: center;
+    background-color: #c5baba;
+    gap: 15px;
+    justify-items: center;
+    grid-template-areas: "h2 h2 h2" "h3 h3 h3" "first first first" "second second second" "third third third";
+  }
+  .First {
+    display: grid;
+    grid-template-columns: 60%;
+    background-color: #c5baba;
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Second {
+    display: grid;
+    grid-template-columns: 60%;
+    background-color: #c5baba;
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Third {
+    display: grid;
+    grid-template-columns: 60%;
+    background-color: #c5baba;
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 50px;
+    font-family: "Montserrat", sans-serif;
+  }
+  /* tamaño img */
+  .carrousel {
+    height: 50%;
+    width: 100%;
+  }
+  .stella {
+    display: grid;
+    height: 100%;
+    width: 165%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .japones {
+    display: grid;
+    height: 100%;
+    width: 165%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .vitc {
+    display: grid;
+    height: 100%;
+    width: 165%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  .pFacial {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    border: #aba6a6 1px solid;
+    justify-content: center;
+  }
+  .pExceso {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    border: #aba6a6 1px solid;
+    justify-content: center;
+  }
+  .videoFacial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    height: 20%;
+    width: 100%;
+  }
+  .pCorpo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    border: #aba6a6 1px solid;
+    justify-content: center;
+  }
+  .pFunciones {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    border: #aba6a6 1px solid;
+    justify-content: center;
+  }
+  .Skincare3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+/*--- variables --- */
+.caja .cajaUno {
+  background-color: lightcyan;
+  margin: 10px;
+  width: 50px;
+  height: 100px;
+  font-family: "Montserrat";
+}
+.caja .cajaDos {
+  background-color: lightgray;
+  margin: 10px;
+  width: 80px;
+  height: 70px;
+  font-family: "Montserrat";
+}
+.caja .cajaTres {
+  background-color: lightsteelblue;
+  margin: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+
+.pieDePag {
+  display: grid;
+  grid-template-rows: 15px;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #aba6a6;
+  font-family: "Montserrat", sans-serif;
+}
+
+.images {
+  margin-left: 35%;
+}
+
+.imgSkin {
+  padding: 5px;
+  margin: 15px 15px 15px;
+  display: inline-block;
+}
+
+.Skincare {
+  font-family: "Montserrat", sans-serif;
+  background-color: whitesmoke;
+  display: grid inline-block;
+  align-items: center;
+}
+
+.blogInicio {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: rgb(81, 15, 94);
+  margin-left: 95px;
+  margin-right: 135px;
+  padding: 5px 5px 5px 5px;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.2fr 0.2fr;
+  align-items: center;
+  background-color: #c5baba;
+  gap: 15px;
+  justify-items: center;
+  grid-template-areas: "h2 h2 h2" "h3 h3 h3" "first first first" "second second second" "third third third";
+}
+
+/* animación */
+.facial {
+  height: 230px;
+  width: 150px;
+  margin: 50px auto;
+}
+
+.facial:hover {
+  -webkit-animation: cambio-borde 4s;
+          animation: cambio-borde 4s;
+}
+
+.corporal {
+  height: 230px;
+  width: 150px;
+  margin: 50px auto;
+}
+
+.corporal:hover {
+  -webkit-animation: cambio-borde 4s;
+          animation: cambio-borde 4s;
+}
+
+@-webkit-keyframes cambio-borde {
+  25% {
+    border-radius: 15px;
+  }
+  50% {
+    border-radius: 18px;
+  }
+  75% {
+    border-radius: 23px;
+  }
+}
+
+@keyframes cambio-borde {
+  25% {
+    border-radius: 15px;
+  }
+  50% {
+    border-radius: 18px;
+  }
+  75% {
+    border-radius: 23px;
+  }
+}
+/* Declaro nombre para las areas de la grilla */
+.imgSkincare {
+  grid-area: imgskin;
+}
+
+.imgCorporal {
+  grid-area: imgcorpo;
+}
+
+.blog {
+  grid-area: blog;
+}
+
+h1 {
+  grid-area: h1;
+}
+
+p {
+  grid-area: p;
+}
+
+h2 {
+  grid-area: h2;
+}
+
+h3 {
+  grid-area: h3;
+}
+
+.First {
+  grid-area: first;
+}
+
+.Second {
+  grid-area: second;
+}
+
+.Third {
+  grid-area: third;
+}
+
+.Skincare2 {
+  grid-area: Skincare2;
+}
+
+.imgFac {
+  grid-area: imgFac;
+}
+
+.pFacial {
+  grid-area: pFacial;
+}
+
+.pExceso {
+  grid-area: pExceso;
+}
+
+.videoFacial {
+  grid-area: videoFacial;
+}
+
+.cuidadoFacial {
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.Skincare2 {
+  display: grid;
+  grid-template-areas: "imgFac" "pFacial" "pExceso" "videoFacial";
+  grid-template-rows: 1fr 0.3fr 0.3fr 2fr;
+}
+
+.img-fluid {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 60%;
+  width: 55%;
+  height: 80%;
+  margin-top: 6px;
+  margin-right: 65px;
+  margin-left: 50px;
+  padding-right: 5px;
+}
+
+.cuidadoFac {
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(81, 15, 94);
+  margin-left: 150px;
+  margin-right: 135px;
+  padding: 5px 5px 5px 5px;
+}
+
+.pFacial {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  border: #aba6a6 1px solid;
+  justify-content: center;
+}
+
+.pExceso {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  border: #aba6a6 1px solid;
+  justify-content: center;
+}
+
+.videoFacial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  height: 20%;
+  width: 100%;
+}
+
+.imgCorp {
+  width: 80%;
+  height: 300%;
+}
+
+.Skincare3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pCorpo {
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  border: #aba6a6 1px solid;
+  justify-content: center;
+}
+
+.pFunciones {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
+  border: #aba6a6 1px solid;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */

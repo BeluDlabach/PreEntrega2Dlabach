@@ -1,0 +1,10 @@
+/*--- variables --- */
+$fondo: #c5baba;
+$fuente-parrafo: normal 'Montserrat', sans-serif; 
+$color-texto: #918888;
+
+@mixin tamaño ($ancho, $alto, $fuente) {
+    width: $ancho;
+    height: $alto; 
+    font-family: $fuente;
+}

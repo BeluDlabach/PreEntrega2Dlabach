@@ -1,0 +1,83 @@
+
+
+
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+.pieDePag{
+    display: grid;
+    grid-template-rows: 15px;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #aba6a6;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+.images{
+    margin-left: 35%;
+}
+.imgSkin{
+    padding: 5px;
+    margin: 15px 15px 15px;
+    display: inline-block;
+}
+.Skincare {
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    display: grid inline-block;
+    align-items: center;
+    
+}
+.blogInicio{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: rgb(81, 15, 94);
+    margin-left: 95px;
+    margin-right: 135px;
+    padding: 5px 5px 5px 5px
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 0.2fr 0.2fr ;
+    align-items: center;
+    background-color: #c5baba;
+    gap: 15px;
+    justify-items: center;
+    grid-template-areas:
+        "h2 h2 h2"
+        "h3 h3 h3"
+        "first first first"
+        "second second second"
+        "third third third";
+}
+
+
+/* animación */
+.facial{
+    height: 230px;  
+    width:150px; 
+    margin: 50px auto;
+}
+.facial:hover{
+    animation: cambio-borde 4s;
+}
+.corporal{
+    height: 230px;  
+    width:150px; 
+    margin: 50px auto;
+}
+.corporal:hover{
+    animation: cambio-borde 4s;
+}
+@keyframes cambio-borde{
+    25% {border-radius: 15px};
+    50% {border-radius: 18px};
+    75%{border-radius: 23px};
+}

@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-
 /* mobile first 0px-500px */
 * {
     margin: 0%;
@@ -12,24 +10,6 @@ body{
     position: relative;
     padding-bottom: 20em;
     background-color: #c5baba;
-}
-footer {
-    display: grid;
-    background-color: #aba6a6;
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-}
-.Footer {
-    font-family: 'Montserrat', sans-serif;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.redes {
-    padding: 5px;
-    margin: 15px 15px 15px;
-    display: inline-block;
 }
 .imgSkin{
     padding: 5px;
@@ -281,7 +261,6 @@ article {
     padding-top: 10px;
 }
 
-
 @media(min-width:1024px){
     .violet{
         background-color: #aba6a6;
@@ -293,24 +272,6 @@ article {
     }
     .images{
         margin-left: 35%;
-    }
-    footer {
-        display: grid;
-        background-color: #aba6a6;
-        position: fixed;
-        bottom: 0%;
-        width: 100%;
-    }
-    .Footer {
-        font-family: 'Montserrat', sans-serif;
-        align-items: center;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-    .redes {
-        padding: 5px;
-        margin: 15px 15px 15px;
-        display: inline-block;
     }
     .imgSkin{
         padding: 5px;
@@ -358,12 +319,7 @@ article {
     }
     
     /* Declaro nombre para las areas de la grilla */
-    .carrousel {
-        grid-area: carrousel;
-    }
-    .Skincare {
-        grid-area: skincare;
-    }
+
     .imgSkincare {
         grid-area: imgskin;
     }
@@ -468,12 +424,7 @@ article {
         background-color: whitesmoke;
         display: grid inline-block;
         align-items: center;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.5fr 0.5fr 2fr;
-        grid-template-areas:
-            "h1 h1"
-            "p p"
-            "imgskin imgcorpo";
+        
     }
     article {
         display: grid;
@@ -567,7 +518,6 @@ article {
         border:#aba6a6 1px solid;
         justify-content: center;
     }
-
     .videoFacial{
         display: flex;
         flex-direction: column;
@@ -605,55 +555,4 @@ article {
         justify-content: center;
     }
 
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* animación */
-.facial{
-    height: 230px;  
-    width:150px; 
-    margin: 50px auto;
-}
-.facial:hover{
-    animation: cambio-borde 4s;
-}
-.corporal{
-    height: 230px;  
-    width:150px; 
-    margin: 50px auto;
-}
-.corporal:hover{
-    animation: cambio-borde 4s;
-}
-@keyframes cambio-borde{
-    25% {border-radius: 15px};
-    50% {border-radius: 18px};
-    75%{border-radius: 23px};
-}
-
-
-
-
-
-font-family: 'Montserrat', sans-serif;

@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.violet{
+    background-color: #aba6a6;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+.pieDePag{
+    display: grid;
+    grid-template-rows: 15px;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #aba6a6;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    position: relative;
+    padding-bottom: 20em;
+    background-color: #c5baba;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    padding-left: 50;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    color: #918888;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 150px;
+    margin-left: 115px;
+    border: 5px;
+}
+h4 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    min-width: 175px;
+    display: flex;
+    flex-direction: row;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    font-size: small;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.carrousel {
+    height: 50%;
+    width: 100%;
+}
+
+
+
+.First {
+    display: grid;
+    grid-template-columns: 60%;
+    background-color: #c5baba;
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Second {
+    display: grid;
+    grid-template-columns: 60%;
+    background-color: #c5baba;
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Third {
+    display: grid;
+    grid-template-columns: 60%;
+    background-color: #c5baba;
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.stella {
+    display: grid;
+    height: 100%;
+    width: 165%;
+    border: 1px solid black;
+    text-align: center;
+}
+.japones {
+    display: grid;
+    height: 100%;
+    width: 165%;
+    border: 1px solid black;
+    text-align: center;
+}
+.vitc {
+    display: grid;
+    height: 100%;
+    width: 165%;
+    border: 1px solid black;
+    text-align: center;
+}

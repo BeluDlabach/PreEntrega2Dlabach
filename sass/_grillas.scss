@@ -1,0 +1,47 @@
+/* Declaro nombre para las areas de la grilla */
+
+.imgSkincare {
+    grid-area: imgskin;
+}
+.imgCorporal {
+    grid-area: imgcorpo;
+}
+.blog {
+    grid-area: blog;
+}
+h1 {
+    grid-area: h1;
+}
+p {
+    grid-area: p;
+}
+h2 {
+    grid-area: h2;
+}
+h3 {
+    grid-area: h3;
+}
+.First {
+    grid-area: first;
+}
+.Second {
+    grid-area: second;
+}
+.Third {
+    grid-area: third;
+}
+.Skincare2{
+    grid-area: Skincare2;
+}
+.imgFac{
+    grid-area: imgFac;
+}
+.pFacial{
+    grid-area: pFacial;
+}
+.pExceso{
+    grid-area: pExceso;
+}
+.videoFacial{
+    grid-area: videoFacial;
+}

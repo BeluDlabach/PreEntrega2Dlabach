@@ -1,0 +1,12 @@
+.form{
+    background-color:lightcyan ;
+}
+.enviar{
+    border: 2px solid black;
+    background-color:lightpink ;
+    @include radial-border;
+}
+.restablecer{
+    @extend .enviar;
+    background: light red;
+}
